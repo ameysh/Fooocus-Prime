@@ -27,8 +27,7 @@ This fork is actively evolving, with features and tweaks added or refined over t
 ## Disclaimers
 
 - This fork is experimental and provided **“as is”**, without any warranty, express or implied, including but not limited to merchantability or fitness for a particular purpose.  
-- Use this software at your own risk. The maintainer is not liable for any damages or data loss resulting from its use.  
-- This fork attempts to optimize performance for AMD GPUs using DirectML but may not function optimally on all AMD GPUs or other hardware configurations.
+- Use this software at your own risk. The maintainer is not liable for any damages or data loss resulting from its use.
 
 ---
 
