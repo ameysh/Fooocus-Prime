@@ -20,7 +20,8 @@ Read the full [original README](https://github.com/lllyasviel/Fooocus#readme) fo
 
 This fork is actively evolving, with features and tweaks added or refined over time. As of now, here’s a snapshot of the current modifications:
 
-- Image generation now defaults to a single image.
+- Default image output is set to one, making results quicker and more focused
+- Performance settings are now organized in a drop-down menu for cleaner navigation 
 
 ---
 
