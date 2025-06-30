@@ -16,7 +16,7 @@ Read the full [original README](https://github.com/lllyasviel/Fooocus#readme) fo
 
 ---
 
-## Overview of Key Modifications
+## Fooocus-Prime Modifications
 
 This fork is actively evolving, with features and tweaks added or refined over time. As of now, here’s a snapshot of the current modifications:
 
