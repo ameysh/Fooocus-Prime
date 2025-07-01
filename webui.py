@@ -1116,8 +1116,10 @@ with shared.gradio_root:
             
     # GitHub repository link
     gr.HTML('<div style="text-align: center; margin-top: 20px; padding: 10px;">'
-            '<a href="https://github.com/ameysh/Fooocus-Prime" target="_blank" style="color: #666;">'
-            'View project on GitHub</a></div>')
+            f'<span class="foocus-prime-version-info">Version: {fooocus_prime_version.version}</span>'
+            '<span style="display:inline-block; width:12px;"></span>'
+            '<a href="https://github.com/ameysh/Fooocus-Prime" target="_blank" style="color: #666;">View on GitHub</a>'
+            '</div>')
 
 def dump_default_english_config():
     from modules.localization import dump_english_config

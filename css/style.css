@@ -20,6 +20,13 @@
   100% { transform: rotate(360deg); }
 }
 
+/* Focus Prime version info */
+.foocus-prime-version-info {
+  font-size: 12px;
+  color: lightgrey;
+  margin-left: 10px;
+}
+
 /* Style the progress bar */
 progress {
   appearance: none; /* Remove default styling */
