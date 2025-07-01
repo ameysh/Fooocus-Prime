@@ -23,6 +23,7 @@ from modules.private_logger import get_current_html_path
 from modules.ui_gradio_extensions import reload_javascript
 from modules.auth import auth_enabled, check_auth
 from modules.util import is_json
+from modules.config import path_outputs
 
 def get_task(*args):
     args = list(args)
@@ -614,6 +615,9 @@ with shared.gradio_root:
                         return gr.update(value='')
 
                     return gr.update(value=f'<a href="file={get_current_html_path(output_format)}" target="_blank">\U0001F4DA History Log</a>')
+
+                gr.Markdown('### Outputs:')
+                gr.Markdown(f'Save location: `{path_outputs}`')
 
                 history_link = gr.HTML()
                 shared.gradio_root.load(update_history_link, outputs=history_link, queue=False, show_progress=False)
