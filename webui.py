@@ -146,7 +146,7 @@ def inpaint_mode_change(mode, inpaint_engine_version):
 
 reload_javascript()
 
-title = f'Fooocus-Prime {fooocus_prime_version.version}'
+title = 'Foocus-Prime'
 
 if isinstance(args_manager.args.preset, str):
     title += ' ' + args_manager.args.preset
@@ -1117,7 +1117,7 @@ with shared.gradio_root:
     # GitHub repository link
     gr.HTML('<div style="text-align: center; margin-top: 20px; padding: 10px;">'
             f'<span class="foocus-prime-version-info">Version: {fooocus_prime_version.version}</span>'
-            '<span style="display:inline-block; width:12px;"></span>'
+            '<span style="display:inline-block; width:10px;"></span>'
             '<a href="https://github.com/ameysh/Fooocus-Prime" target="_blank" style="color: #666;">View on GitHub</a>'
             '</div>')
 
