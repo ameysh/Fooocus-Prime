@@ -1119,7 +1119,7 @@ with shared.gradio_root:
     gr.HTML('<div style="text-align: center; margin-top: 20px; padding: 10px;">'
             f'<span class="foocus-prime-version-info">Version: {fooocus_prime_version.version}</span>'
             '<span style="display:inline-block; width:10px;"></span>'
-            '<a href="https://github.com/ameysh/Fooocus-Prime" target="_blank" style="color: #666;">View on GitHub</a>'
+            '<a href="https://github.com/ameysh/Fooocus-Prime" target="_blank" style="color: #868585;">View on GitHub</a>'
             '</div>')
 
 def dump_default_english_config():
