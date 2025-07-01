@@ -99,7 +99,11 @@ div:has(> #positive_prompt) {
 }
 
 .advanced_check_row {
-  width: 330px !important;
+  width: 560px !important;
+}
+
+.advanced_check_row label {
+  color: grey !important;
 }
 
 .min_check {
