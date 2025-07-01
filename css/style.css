@@ -427,3 +427,11 @@ div:has(> #positive_prompt) {
 #inpaint_brush_color input[type=color]{
   background: none;
 }
+
+.aspect_ratios label:nth-child(-n+7) {
+  background: linear-gradient(180deg, #ffe066 0%, #ffd700 100%) !important;
+  color: black !important;
+  border-radius: 6px;
+  border: 1.5px solid #e6c200 !important;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.10), 0 1.5px 2px 0 rgba(0,0,0,0.08);
+}
