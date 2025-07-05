@@ -437,7 +437,7 @@ div:has(> #positive_prompt) {
 }
 @media (prefers-color-scheme: dark) {
   .aspect_ratios label:nth-child(-n+7) {
-    background: linear-gradient(180deg, #4b145c 0%, #2d0036 100%) !important;
+    background: linear-gradient(180deg, #545454 0%, #4e4b4b 100%) !important;
     color: #fff !important;
     border: 1.5px solid #383838 !important;
   }
