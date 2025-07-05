@@ -106,7 +106,7 @@ div:has(> #positive_prompt) {
 }
 
 .advanced_check_row {
-  width: 560px !important;
+  width: 650px !important;
 }
 
 .advanced_check_row label {
