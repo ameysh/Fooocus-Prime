@@ -65,6 +65,19 @@ Read the full [original README](https://github.com/lllyasviel/Fooocus#readme) fo
 - This fork is experimental and provided **“as is”**, without any warranty, express or implied, including but not limited to merchantability or fitness for a particular purpose.  
 - Use this software at your own risk. The maintainer is not liable for any damages or data loss resulting from its use.
 
+### Please use **Fooocus-Prime** responsibly and ethically.
+
+You are solely responsible for any content generated using this software. The developer(s) and maintainer(s) of Fooocus-Prime do not endorse, review, or assume liability for any outputs or the way they are used.
+
+AI-generated content should be created and used with care. Always ensure that your use of this software:
+
+- Complies with applicable laws and regulations.
+- Respects the rights, privacy, and dignity of individuals.
+- Does not cause harm, infringe on intellectual property, or spread misinformation.
+
+By using Fooocus-Prime, you agree to take full responsibility for any content you generate and its consequences. Use this tool mindfully.
+
+
 ## License
 
 This project remains under the [GNU General Public License v3.0](LICENSE), in line with the original Fooocus repository.
