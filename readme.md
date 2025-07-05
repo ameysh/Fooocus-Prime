@@ -4,9 +4,7 @@
 
 > ⚠️ **Disclaimer**: This is not an official Fooocus release.
 
----
-
-## About the Original Project
+## About Fooocus
 
 Fooocus is an image generating software (based on [Gradio](https://www.gradio.app/) <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a>).
 
@@ -14,29 +12,25 @@ Fooocus presents a rethinking of image generator designs. The software is offlin
 
 Read the full [original README](https://github.com/lllyasviel/Fooocus#readme) for more details.
 
----
-
 ## Fooocus-Prime Modifications
 
 This fork is actively evolving, with features and tweaks added or refined over time. As of now, here’s a snapshot of the current modifications:
 
-- Default image output is set to one, making results quicker and more focused
-- Performance settings are now organized in a drop-down menu for cleaner navigation 
-
----
+- The aspect ratio panel is reorganized, with the recommended SDXL ratios highlighted and 1:1 (1024x1024) set as the default  
+- The default image generation count is set to one to simplify the experience 
+- Performance settings are organized in a drop-down menu for cleaner navigation
+- Output save location, GitHub repository link, and version info are displayed in the interface for quick reference  
+- Labels and interface elements are cleaned up for clarity and consistency 
 
 ## Disclaimers
 
 - This fork is experimental and provided **“as is”**, without any warranty, express or implied, including but not limited to merchantability or fitness for a particular purpose.  
 - Use this software at your own risk. The maintainer is not liable for any damages or data loss resulting from its use.
 
----
-
 ## License
 
 This project remains under the [GNU General Public License v3.0](LICENSE), in line with the original Fooocus repository.
 
----
 
 ## Credits
 
