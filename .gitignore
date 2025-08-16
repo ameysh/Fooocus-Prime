@@ -23,6 +23,10 @@ user_path_config-deprecated.txt
 /repositories
 /fooocus_env
 /venv
+/.venv
+/fooocus-prime_venv/
+/env/
+/ENV/
 /tmp
 /ui-config.json
 /outputs
