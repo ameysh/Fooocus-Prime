@@ -767,8 +767,8 @@ if REWRITE_PRESET and isinstance(args_manager.args.preset, str):
 def add_ratio(x):
     a, b = x.replace('*', ' ').split(' ')[:2]
     a, b = int(a), int(b)
-    return f'{a}×{b}'
-
+    g = math.gcd(a, b)
+    return f'{a}×{b} <span style="color: grey;"> \U00002223 {a // g}:{b // g}</span>'
 
 default_aspect_ratio = add_ratio(default_aspect_ratio)
 available_aspect_ratios_labels = [add_ratio(x) for x in available_aspect_ratios]

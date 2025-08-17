@@ -427,18 +427,3 @@ div:has(> #positive_prompt) {
 #inpaint_brush_color input[type=color]{
   background: none;
 }
-
-.aspect_ratios label:nth-child(-n+7) {
-  background: linear-gradient(180deg, #f8f5e4 0%, #e0ddce 100%) !important;
-  color: #222 !important;
-  border-radius: 6px;
-  border: 1.5px solid #d4d4d4 !important;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.08), 0 1.5px 2px 0 rgba(0,0,0,0.06);
-}
-@media (prefers-color-scheme: dark) {
-  .aspect_ratios label:nth-child(-n+7) {
-    background: linear-gradient(180deg, #545454 0%, #4e4b4b 100%) !important;
-    color: #fff !important;
-    border: 1.5px solid #383838 !important;
-  }
-}

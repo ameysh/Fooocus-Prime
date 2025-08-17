@@ -570,7 +570,6 @@ with shared.gradio_root:
                                                  elem_classes=['performance_selection'])
 
                 with gr.Accordion(label='Aspect Ratios', open=False, elem_id='aspect_ratios_accordion') as aspect_ratios_accordion:
-                    gr.Markdown('The highlighted options are the most recommended.')
                     aspect_ratios_selection = gr.Radio(label='Aspect Ratios', show_label=False,
                                                        choices=modules.config.available_aspect_ratios_labels,
                                                        value=modules.config.default_aspect_ratio,
