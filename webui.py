@@ -573,7 +573,7 @@ with shared.gradio_root:
                     aspect_ratios_selection = gr.Radio(label='Aspect Ratios', show_label=False,
                                                        choices=modules.config.available_aspect_ratios_labels,
                                                        value=modules.config.default_aspect_ratio,
-                                                       info='width × height',
+                                                       info='Choose from the SDXL-recommended width x height options.',
                                                        elem_classes='aspect_ratios')
 
                     aspect_ratios_selection.change(lambda x: None, inputs=aspect_ratios_selection, queue=False, show_progress=False, _js='(x)=>{refresh_aspect_ratios_label(x);}')
