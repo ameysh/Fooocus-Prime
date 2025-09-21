@@ -12,7 +12,6 @@ Generate amazing images using the power of Fooocus-Prime
 
 This fork is actively evolving, with features and tweaks added or refined over time. As of now, here’s a snapshot of the current modifications:
 
-- The aspect ratio panel is reorganized, with the recommended SDXL ratios highlighted and 1:1 (1024x1024) set as the default  
 - The default image generation count is set to one to simplify the experience 
 - Performance settings are organized in a drop-down menu for cleaner navigation
 - Output save location, GitHub repository link, and version info are displayed in the interface for quick reference  
