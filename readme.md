@@ -2,7 +2,7 @@
 
 Generate amazing images using the power of Fooocus-Prime
 
-![Preview](fooocus-prime-screenshot-lotus.png)
+![Preview](fooocus-prime-screenshot-lotus-2.png)
 
 **Fooocus-Prime** builds on the original [Fooocus](https://github.com/lllyasviel/Fooocus) image generation tool by adding targeted improvements that make image generation easier and more intuitive.
 
